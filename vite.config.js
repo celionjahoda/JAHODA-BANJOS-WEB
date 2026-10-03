@@ -9,4 +9,4 @@ const pagesFallback = {
   },
 }
 
-export default defineConfig({ plugins: [react(), pagesFallback], base: '/' })
+export default defineConfig({ plugins: [react(), pagesFallback], base: '/JAHODA-BANJOS-WEB/' })
