@@ -143,11 +143,7 @@ function Home() {
   return (
     <main className="home-main">
       <section className="welcome wrap">
-        <div className="welcome-photo"><Photo label="" alt="Fotografie banja bude doplněna" className="hero-art" /></div>
-        <h1>
-          <span className="line"><span className="welcome-word">Vítejte</span> na stránkách</span>
-          <em className="line">zakázkové výroby banj Jahoda.</em>
-        </h1>
+        <h1>Vítejte na stránkách zakázkové výroby banj Jahoda.</h1>
         <ul className="welcome-services">
           {services.map((s, i) => <li key={s} style={{ '--i': i }}>{s}</li>)}
         </ul>
